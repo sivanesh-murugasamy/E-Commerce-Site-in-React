@@ -49,7 +49,7 @@ const ShopContextProvider=(props)=>{
                         }
                 }
                 return totalItem;
-        }
+            }
     
     const contextValue={getTotalCartItems,getTotalCartAmount,all_product,cartItems,addToCart,removeFromCart};
     return(
